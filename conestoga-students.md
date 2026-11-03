@@ -74,5 +74,6 @@ You don't need a powerful computer: the browser tools in this toolkit run on any
 ## Watch-outs
 
 - Trials that need a card renew at full price. Cancel in time.
+- Keep startup files in a personal OneDrive or Google Drive, not your school OneDrive. School access ends when your Conestoga email does.
 - Some educational licences, such as JetBrains, are not for commercial products. Check the terms before you use one for paid work.
 - Keep personal and confidential data out of AI chats, even protected ones.

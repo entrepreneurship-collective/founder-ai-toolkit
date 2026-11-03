@@ -2,20 +2,20 @@
 
 Copy-paste prompts for each step, from research to a working app. Each prompt asks the AI for a markdown file: plain text with simple headings that every AI tool can read. Save each file, then paste it into the next step, so every tool works from the same facts.
 
-| Prompt | Use in | You get |
-|---|---|---|
-| [1. Research brief](#1-research-brief) | [Gemini](https://gemini.google.com) Deep Research | research-brief.md |
-| [2. Lean Canvas](#2-lean-canvas) | [Claude](https://claude.ai) or [ChatGPT](https://chatgpt.com) | lean-canvas.md |
-| [3. App spec](#3-app-spec) | Claude or ChatGPT | spec.md |
-| [4. Build](#4-build) | Any app builder or coding agent | A working app |
-| [5. Pitch deck](#5-pitch-deck) | Claude or ChatGPT, then [Gamma](https://gamma.app) | pitch-deck.md |
-| [6. Interview guide](#6-interview-guide) | Claude or ChatGPT | interview-guide.md |
+| Step | Prompt | Use in | You get |
+|---|---|---|---|
+| **Research** | [1. Research brief](#1-research-brief) | [Gemini](https://gemini.google.com) Deep Research | research-brief.md |
+| **Plan** | [2. Lean Canvas](#2-lean-canvas) | [Claude](https://claude.ai) or [ChatGPT](https://chatgpt.com) | lean-canvas.md |
+| **Plan** | [3. App spec](#3-app-spec) | Claude or ChatGPT | spec.md |
+| **Build** | [4. Build](#4-build) | Any app builder or coding agent | A working app |
+| **Share and test** | [5. Pitch deck](#5-pitch-deck) | Claude or ChatGPT, then [Gamma](https://gamma.app) | pitch-deck.md |
+| **Share and test** | [6. Interview guide](#6-interview-guide) | Claude or ChatGPT | interview-guide.md |
 
 **How to use them:**
 
 - Fill in the [brackets] before you send. Where a prompt says [paste ...], open that file, copy everything and paste it there.
 - Keep the lines asking for links and "unknown". They cut down on made-up facts.
-- **Save each answer as a file.** Click the copy button under the answer, paste it into a plain text editor (Notepad on Windows, or TextEdit on Mac after Format > Make Plain Text), and save it with the name shown. Keep all your files in one folder.
+- **Save each answer as a file.** Click the copy button under the answer, paste it into a plain text editor (Notepad on Windows, or TextEdit on Mac after Format > Make Plain Text), and save it with the name shown. Keep all your files in one folder, for example in OneDrive or Google Drive.
 - When your plans change, update the file, so the next tool always gets the latest version.
 
 ---
@@ -180,7 +180,7 @@ Rules:
 [paste research-brief.md]
 ```
 
-Paste the outline into Gamma to design the slides, then edit them by hand.
+Paste the outline into Gamma to design the slides, or ask Claude to turn it into a PowerPoint file. Then edit the slides by hand.
 
 ---
 
@@ -198,7 +198,7 @@ Rules:
 [paste lean-canvas.md]
 ```
 
-Put the screener in [Tally](https://tally.so) or [Google Forms](https://forms.google.com). After 5 or more interviews, add your notes to [Gemini Notebook](https://notebook.google.com) and ask: "Which problems came up most often? Quote the people who said them." Then update lean-canvas.md: change each ASSUMPTION that interviews confirmed to FACT, and run prompt 3 again if the app needs to change.
+Put the screener in [Tally](https://tally.so), [Google Forms](https://forms.google.com) or [Microsoft Forms](https://forms.office.com). After 5 or more interviews, add your notes to [Gemini Notebook](https://notebook.google.com) and ask: "Which problems came up most often? Quote the people who said them." Then update lean-canvas.md: change each ASSUMPTION that interviews confirmed to FACT, and run prompt 3 again if the app needs to change.
 
 ---
 

@@ -8,17 +8,19 @@ Good options we found, not endorsements or a complete list. Prices and limits la
 
 ## The starter kit
 
+The kit follows four steps: **Research → Plan → Build → Share and test.** [How the tools work together](#how-the-tools-work-together) shows how each step feeds the next.
+
 Start with the Free column: every tool in it runs in a web browser with a free account. Pay only when a free limit slows you down. Prices are in US dollars.
 
 | Step | Free | Paid, when you need more |
 |---|---|---|
-| Research competitors and customers | [Gemini](https://gemini.google.com) Deep Research, [ChatGPT](https://chatgpt.com) | ChatGPT Plus or Google AI Pro (about $20/mo): more deep research reports |
-| Check facts | [Perplexity](https://www.perplexity.ai), [Statistics Canada](https://www.statcan.gc.ca) | Perplexity Pro (about $20/mo): more Pro searches |
-| Summarize your notes and sources | [Gemini Notebook](https://notebook.google.com) | - |
-| Plan your Lean Canvas and app spec | [Claude](https://claude.ai), ChatGPT | Claude Pro ($20/mo): higher limits and Research mode |
-| Build your MVP | [Google AI Studio](https://aistudio.google.com) (Build mode), [Lovable](https://lovable.dev), [Bolt](https://bolt.new) | [OpenRouter](https://openrouter.ai/) credit with [Dyad](https://www.dyad.sh/) (about $10, pay as you go), or Lovable Pro or Bolt Pro ($25/mo) |
-| Make a landing page or pitch deck | [Gamma](https://gamma.app) (400 credits, once) | Gamma Plus: 1,500 credits/mo and no Gamma badge |
-| Collect feedback | [Tally](https://tally.so), [Google Forms](https://forms.google.com) | - |
+| **Research:** competitors and customers | [Gemini](https://gemini.google.com) Deep Research, [ChatGPT](https://chatgpt.com) | ChatGPT Plus or Google AI Pro (about $20/mo): more deep research reports |
+| **Research:** check facts | [Perplexity](https://www.perplexity.ai), [Statistics Canada](https://www.statcan.gc.ca) | Perplexity Pro (about $20/mo): more Pro searches |
+| **Research:** summarize your notes and sources | [Gemini Notebook](https://notebook.google.com) | - |
+| **Plan:** Lean Canvas and app spec | [Claude](https://claude.ai), ChatGPT | Claude Pro ($20/mo): higher limits and Research mode |
+| **Build:** your MVP | [Google AI Studio](https://aistudio.google.com) (Build mode), [Lovable](https://lovable.dev), [Bolt](https://bolt.new) | [OpenRouter](https://openrouter.ai/) credit with [Dyad](https://www.dyad.sh/) (about $10, pay as you go), or Lovable Pro or Bolt Pro ($25/mo) |
+| **Share and test:** landing page or pitch deck | [Gamma](https://gamma.app) (400 credits, once) | Gamma Plus: 1,500 credits/mo and no Gamma badge |
+| **Share and test:** collect feedback | [Tally](https://tally.so), [Google Forms](https://forms.google.com), [Microsoft Forms](https://forms.office.com) | - |
 
 **Pick a budget:**
 
@@ -30,7 +32,7 @@ Start with the Free column: every tool in it runs in a web browser with a free a
 
 ## How the tools work together
 
-Use each tool for one job, and pass a short markdown file from one to the next. The [prompt pack](prompts.md) has a prompt for each step.
+These are the four steps from the starter kit. Each step hands a short markdown file to the next, and each tool does one job. The [prompt pack](prompts.md) has a prompt for each step.
 
 ```mermaid
 flowchart LR
@@ -44,7 +46,7 @@ Feedback from testing goes back into your plan, and the cycle repeats.
 1. **Plan in chat, build in a builder.** Chat assistants have generous free limits. App builders give you only a few prompts a day. Make your decisions in chat, then give the builder one clear spec.
 2. **Research with one tool, check with another.** The AI that wrote a report is a poor judge of it.
 3. **Ground the AI in your own material.** Add your reports and interview notes to Gemini Notebook, so answers come from your sources.
-4. **Keep your work portable.** Keep your files in one [Google Drive](https://drive.google.com) folder, and prefer builders that export code to GitHub (Google AI Studio and Lovable do). Then you can switch tools without starting over.
+4. **Keep your work portable.** Keep your files in one [Google Drive](https://drive.google.com) or [OneDrive](https://www.onedrive.com) folder, and prefer builders that export code to GitHub (Google AI Studio and Lovable do). Then you can switch tools without starting over.
 
 **Three levels of building.** None of them need you to write code. Start at level 1, and move up only when it holds you back.
 
@@ -60,14 +62,14 @@ The [build guide](build.md) explains each level.
 
 The starter kit is one good path, not the only one. These tools do the same jobs, and each has a free plan or free trial. Try one if it suits you better.
 
-- **Research:** [Mistral Vibe](https://chat.mistral.ai) (a European AI assistant with web search), [Semrush](https://www.semrush.com) (which search keywords bring visitors to competitors' websites).
+- **Research:** [Microsoft Copilot](https://copilot.microsoft.com) (Microsoft's AI assistant, with web search), [Mistral Vibe](https://chat.mistral.ai) (a European AI assistant with web search), [Semrush](https://www.semrush.com) (which search keywords bring visitors to competitors' websites).
 - **Check facts:** [Consensus](https://consensus.app) (answers from published research papers), [Open Government Portal](https://open.canada.ca) (free Canadian government datasets).
 - **Summarize your sources:** [ChatPDF](https://www.chatpdf.com) (ask questions about one PDF, such as an industry report).
 - **Plan:** [Miro](https://miro.com) (a whiteboard with a Lean Canvas template), [Notion](https://www.notion.com) (keep your research, canvas and spec in one place), [FigJam](https://www.figma.com/figjam/) (sketch your app's screens).
 - **Build in your browser:** [Replit](https://replit.com) (apps that need a real backend), [Base44](https://base44.com) (simple apps with logins), [v0](https://v0.app) (web apps and sites from a prompt), [Figma Make](https://www.figma.com/make/) (clickable prototypes from a prompt or a design), [Bubble](https://bubble.io) (an app you then edit visually; going live is paid).
 - **Build on your desktop:** [Cursor](https://cursor.com) (an AI code editor), [Kiro](https://kiro.dev) (an AI coding app that works from a spec).
 - **Build in the terminal:** [Aider](https://aider.chat) (an open-source coding agent that works with an OpenRouter key), [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/use-copilot-cli) (GitHub's coding agent, on its free plan).
-- **Pitch deck or landing page:** [Canva](https://www.canva.com) (decks from templates), [Pitch](https://pitch.com) (made for startup decks), [Carrd](https://carrd.com) (simple one-page websites).
+- **Pitch deck or landing page:** [PowerPoint for the web](https://powerpoint.cloud.microsoft) (free with a Microsoft account), [Canva](https://www.canva.com) (decks from templates), [Pitch](https://pitch.com) (made for startup decks), [Carrd](https://carrd.com) (simple one-page websites).
 - **Collect feedback:** [Fillout](https://www.fillout.com) (forms and surveys), [Calendly](https://calendly.com) (let people book an interview time).
 
 ---

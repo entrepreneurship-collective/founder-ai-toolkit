@@ -27,8 +27,8 @@ Free deep research runs are limited, so don't spend them on test prompts. If one
 | Competitive analysis | Gemini Deep Research | Run one report, then check each competitor's website and pricing yourself. Read real complaints on [G2](https://www.g2.com), [Capterra](https://www.capterra.com), [Product Hunt](https://www.producthunt.com) and [Reddit](https://www.reddit.com). |
 | Lean Canvas | Claude or ChatGPT | Have the AI draft all 9 boxes, labelling each point FACT or ASSUMPTION. Finish it on a one-page template such as [Miro's Lean Canvas](https://miro.com/templates/lean-canvas/) (free) or [LEANSpark](https://leanspark.ai/leancanvas) (free for one idea). |
 | Customer personas | Claude or ChatGPT | Give it real quotes from reviews, Reddit or interviews. Treat personas as guesses until 5 or more real people confirm them. |
-| Market size (TAM, SAM, SOM) | Claude or ChatGPT | Work bottom-up: number of customers x price per year. Take the counts from Statistics Canada, not from the AI's memory. |
-| Customer interviews | Claude or ChatGPT | Write a "Mom Test" interview script, find people with a [Tally](https://tally.so) or [Google Forms](https://forms.google.com) screener, then load your notes into Gemini Notebook and ask for patterns with quotes. |
+| Market size (TAM, SAM, SOM) | Claude or ChatGPT | Work bottom-up: number of customers x price per year. Take the counts from Statistics Canada, not from the AI's memory, and do the math in Excel or Google Sheets so you can change any number. |
+| Customer interviews | Claude or ChatGPT | Write a "Mom Test" interview script, find people with a [Tally](https://tally.so), [Google Forms](https://forms.google.com) or [Microsoft Forms](https://forms.office.com) screener, then load your notes into Gemini Notebook and ask for patterns with quotes. |
 | Pricing | Perplexity or Gemini | Collect competitor prices (check every link), then run a short price survey. |
 | Pitch deck | [Gamma](https://gamma.app) | Have the AI write a 10-slide outline from your Lean Canvas, paste it into Gamma, then edit by hand. |
 
